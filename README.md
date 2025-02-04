@@ -29,7 +29,7 @@ The Best Model (CatBoost):
 | Class | Precision | Recall | F1-Score | Support |
 |-------|-----------|--------|----------|---------|
 | 0     | 0.99      | 0.98   | 0.99     | 1547    |
-| -1    | 0.93      | 0.96   | 0.95     | 422     |
+| 1    | 0.93      | 0.96   | 0.95     | 422     |
 
 **Accuracy**: 0.98 (1969 samples)  
 **Macro avg**: Precision: 0.96, Recall: 0.97, F1-score: 0.97  
@@ -39,7 +39,7 @@ The Best Model (CatBoost):
 |          | Predicted 0 | Predicted -1 |
 |----------|-------------|--------------|
 | True 0   | 1518        | 29           |
-| True -1  | 16          | 406          |
+| True 1  | 16          | 406          |
 
 
 ## 📌 Future Improvements
