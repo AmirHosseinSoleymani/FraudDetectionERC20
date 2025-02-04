@@ -26,17 +26,21 @@ Each model is trained and evaluated using appropriate metrics such as **Accuracy
 
 ## 📊 Performance & Results
 The Best Model (CatBoost):
-              precision    recall  f1-score   support
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0     | 0.99      | 0.98   | 0.99     | 1547    |
+| -1    | 0.93      | 0.96   | 0.95     | 422     |
 
-           0       0.99      0.98      0.99      1547
-           1       0.93      0.96      0.95       422
+**Accuracy**: 0.98 (1969 samples)  
+**Macro avg**: Precision: 0.96, Recall: 0.97, F1-score: 0.97  
+**Weighted avg**: Precision: 0.98, Recall: 0.98, F1-score: 0.98
 
-    accuracy                           0.98      1969
-   macro avg       0.96      0.97      0.97      1969
-weighted avg       0.98      0.98      0.98      1969
+**Confusion Matrix
+|          | Predicted 0 | Predicted -1 |
+|----------|-------------|--------------|
+| True 0   | 1518        | 29           |
+| True -1  | 16          | 406          |
 
-[[1518   29]
- [  16  406]]
 
 ## 📌 Future Improvements
 - Feature engineering for **better fraud pattern detection**
