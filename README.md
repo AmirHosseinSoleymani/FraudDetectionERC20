@@ -54,4 +54,4 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 This project is licensed under the **MIT License**.
 
 ---
-💡 **Developed by [AmirHosseinSoleymani]** | 🚀 Follow for more AI & Blockchain projects!
+💡 **Developed by [AmirHosseinSoleymani](https://github.com/AmirHosseinSoleymani)** | 🚀 Follow for more AI & Blockchain projects!
